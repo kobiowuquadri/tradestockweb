@@ -1,0 +1,28 @@
+{
+  "name": "bennsite-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bot-whatsapp/bot": "^0.1.29",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.4.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  }
+}

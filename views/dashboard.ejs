@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+				initial-scale=1.0">
+    <title>dasbord</title>
+    <link rel="stylesheet" href="/css/dasbord.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- for header part -->
+    <header>
+
+        <div class="logosec">
+            <div> <a href="/" style="z-index: 999999999;">
+                    <img class="imgm" src="img/IMG-20230717-WA0002.jpg" alt=""
+                        style="width: 40px;  margin-top: -5px; border-radius: 20px; ">
+                </a>
+            </div>
+
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
+                class="icn menuicn" id="menuicn" alt="menu-icon">
+        </div>
+        <div class="user-name">
+            <p style="font-family: cursive;
+            font-size: 20px; font-weight: 500;"><%=user.firstname.toUpperCase()%></p>
+        </div>
+        <div class="message">
+            <div class="circle"></div>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png" class="icn" alt="">
+            <div class="dp">
+                <div class="profile-image" style="background: black; color: #FFFFFF;
+                height: 50px; width: 50px; padding: 5px;">
+                <p style="font-size: 20px;">
+                    <%=user.firstname.split('')[0].toUpperCase()%> <%=user.lastname.split('')[0].toUpperCase()%>
+                </p></div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="main-container">
+        <div class="navcontainer">
+            <nav class="nav">
+                <div class="nav-upper-options">
+                    <div class="nav-option option1">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182148/Untitled-design-(29).png"
+                            class="nav-img" alt="dashboard">
+                        <h3> Dashboard</h3>
+                    </div>
+
+                    <div class="option2 nav-option">
+                        <a href="https://www.dailyfx.com/">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/9.png"
+                                class="nav-img" alt="articles">
+                        </a>
+                        <h3> Articles</h3>
+                    </div>
+
+                    <div class="nav-option option3">
+                        <img src="/img/download (2).png" class="nav-img" alt="report">
+                        <a style="font-size: 18px; font-weight: 700;
+                        text-decoration: none; color: black;" href="/deposit">Deposit</a>
+                    </div>
+
+                    <div class="nav-option option4">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/6.png"
+                            class="nav-img" alt="institution">
+                        <h3> Withdrawal</h3>
+                    </div>
+
+                    <div class="nav-option option5">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
+                            class="nav-img" alt="blog">
+                        <h3>Transaction</h3>
+                    </div>
+
+                    <div class="nav-option logout">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+                            class="nav-img" alt="logout">
+                        <a style="font-size: 18px; font-weight: 700;
+                        text-decoration: none; color: black;" href="/logout">Logout</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="main">
+
+            <div class="searchbar2">
+                <input type="text" name="" id="" placeholder="Search">
+                <div class="searchbtn">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+                        class="icn srchicn" alt="search-button">
+                </div>
+            </div>
+
+            <div class="box-container">
+
+                <div class="box box1">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <h2 class="topic">Balance</h2>
+                    </div>
+
+                    <img src="" alt="">
+                </div>
+
+                <div class="box box2">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <h2 class="topic">Total bonus</h2>
+                    </div>
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210185030/14.png" alt="likes">
+                </div>
+
+                <div class="box box3">
+                    <div class="text">
+                        <h2 class="topic-heading"><span>$</span>0.00</h2>
+                        <h2 class="topic">Total Eaning</h2>
+                    </div>
+                </div>
+
+                <div class="box box4">
+                    <div class="text">
+                        <h2 class="topic-heading"></h2>
+                        <h2 class="topic">Published</h2>
+                    </div>
+
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210185029/13.png" alt="published">
+                </div>
+            </div>
+
+            <div class="report-container">
+                <div class="report-header">
+                    <h1 class="recent-Articles">Welcome! </h1>
+                </div>
+                <section class="ts-features-col" style="margin-bottom: 0px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div style=" width: 100%;">
+                                    <div
+                                        style="width: 100%; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; text-align: right; line-height:14px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:40px;">
+                                            <embed
+                                                src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="
+                                                width="100%" height="36" scrolling="auto" marginwidth="0" marginheight="0"
+                                                frameborder="0" border="0" style="border:0;margin:0;padding:0;" />
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/java/app.js"></script>
+   
+</body>
+
+</html>
+
+
+</body>
+
+</html>

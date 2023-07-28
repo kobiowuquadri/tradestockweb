@@ -1,0 +1,12 @@
+#boxNot {
+    width: 280px;
+    position: fixed;
+    right: 0px;
+    z-index: 10000;
+    top: 40vh;
+    border-radius: 1px 5px 5px 5px;
+    margin-left: 2px;
+    padding: 5px;
+    border: 1px solid rwhite;
+    box-shadow: white 1px 1px 5px;
+}
